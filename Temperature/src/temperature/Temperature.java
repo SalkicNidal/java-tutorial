@@ -23,4 +23,28 @@ public class Temperature {
     public void setValue(int value){
         this.value = value;
     }
+
+    //toString
+    @Override
+    public String toString() {
+        return "Temperature value is " + value;
+
+    }
+
+    //convert to Kelvin
+     public double convertToKalvin(double value){
+         return value + 273;
+
+    }
+
+    //convert to Fahrenheit
+    public double convertToFahrenheit(double value) {
+         return value + 33.80000;
+    }
+
+
 }
+
+
+
+

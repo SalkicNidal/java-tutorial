@@ -8,7 +8,10 @@ public class Main {
 
         Temperature ttp = new Temperature();
         ttp.setValue(20);
-        System.out.println("Temperature value is: " + ttp.getValue() + " Second value is: "+tmp.getValue());
+        System.out.println(ttp.convertToFahrenheit(1));
     }
+
 }
+
     // metode kelvina i ferenhajta preko gettera i settera
+
