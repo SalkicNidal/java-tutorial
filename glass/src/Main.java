@@ -1,6 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+     Glass glass = new glass;
+
+        System.out.println("Kolicina vode u casi je a maksimalna kolicina je ");
     }
 }

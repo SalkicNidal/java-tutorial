@@ -13,5 +13,5 @@ public class Main {
 
 }
 
-    // metode kelvina i ferenhajta preko gettera i settera
+
 
